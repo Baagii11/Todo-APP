@@ -16,7 +16,6 @@ import { useFonts } from 'expo-font';
 
 const Stack = createStackNavigator();
 const AuthStack = createStackNavigator();
-
 const AuthScreens = () => {
     const [loaded] = useFonts({
         IndieFlower: require('./assets/fonts/IndieFlower-Regular.ttf'),
